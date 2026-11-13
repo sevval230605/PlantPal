@@ -1,17 +1,73 @@
-# plantpal
+# 🌱 PlantPal – Plant Care Application
 
-A new Flutter project.
+PlantPal is a Flutter-based mobile application designed to help users discover plants, manage their plant collections, and keep track of watering schedules.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🌿 Plant catalog with plant details
+- 🔍 Search and category filtering
+- ❤️ Favorite plants
+- 🛒 Shopping cart
+- 📦 Demo checkout and order history
+- 💧 Plant watering schedule
+- 🔔 Scheduled local watering notifications
+- 💾 Persistent storage for favorites, cart, watering records, and order history
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technologies
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- SharedPreferences
+- Flutter Local Notifications
+- Timezone
+- Flutter Timezone
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Android Studio or Visual Studio Code
+- Android Emulator or an Android device
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sevval230605/PlantPal.git
+```
+
+Navigate to the project:
+
+```bash
+cd PlantPal
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+## 📱 Platform
+
+Developed with Flutter and tested on an Android emulator.
+
+## 👩‍💻 Developer
+
+GitHub: [sevval230605](https://github.com/sevval230605)
+
+## 📌 Project Status
+
+Core application features and Android notification integration have been implemented.
+
+---
+
+*PlantPal – Helping your plants grow, one reminder at a time. 🌱*
