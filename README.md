@@ -86,3 +86,35 @@ Proje kaynak kodlarına aşağıdaki bağlantıdan ulaşabilirsiniz:
 ---
 
 **PlantPal – Bitkilerinize iyi bakmanın kolay yolu! 🌱**
+## 💻 Kurulum ve Çalıştırma
+
+**Gereksinimler**
+- Flutter 3.47.9
+- Dart 3.13.7
+- Android Studio veya uyumlu bir Android cihaz/emülatör
+
+**Kurulum**
+
+Projeyi bilgisayarınıza indirin:
+
+```bash
+git clone https://github.com/sevval230605/PlantPal.git
+```
+
+Proje klasörüne girin:
+
+```bash
+cd PlantPal
+```
+
+Gerekli paketleri yükleyin:
+
+```bash
+flutter pub get
+```
+
+Uygulamayı çalıştırın:
+
+```bash
+flutter run
+```
