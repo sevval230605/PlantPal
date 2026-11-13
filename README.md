@@ -1,76 +1,88 @@
-# 🌱 PlantPal – Plant Care Application
+# 🌱 PlantPal – Bitki Bakım ve Yönetim Uygulaması
 
-PlantPal is a Flutter-based mobile application designed to help users discover plants, manage their plant collections, and keep track of watering schedules.
+PlantPal, Flutter ve Dart kullanılarak geliştirilen, kullanıcıların bitkilerini keşfetmesini, bakım süreçlerini takip etmesini ve bitki alışverişi yapmasını sağlayan bir mobil uygulamadır.
 
-The application provides a simple and user-friendly interface for plant lovers to organize plant care and receive watering reminders.
+## 🚀 Özellikler
 
-## ✨ Features
+- **Ana Sayfa:** Popüler bitkiler ve fiyat bilgileri.
+- **Bitki Kataloğu:** Bitki listeleme, arama ve kategori filtreleme.
+- **Bitki Detayları:** Bitkiler hakkında ayrıntılı bilgiler.
+- **Favoriler:** Beğenilen bitkileri favorilere ekleme ve çıkarma.
+- **Bakım Takvimi:** Sulama aralıklarını ve sonraki sulama tarihlerini takip etme.
+- **Sulama Hatırlatıcıları:** Yerel bildirimlerle sulama zamanlarını hatırlatma.
+- **Alışveriş Sepeti:** Ürün ekleme, çıkarma ve toplam tutarı hesaplama.
+- **Sipariş İşlemleri:** Teslimat bilgileri, demo sipariş oluşturma ve sipariş geçmişi.
 
-- 🌿 **Plant Catalog:** Browse different plants and explore their details.
-- 🔍 **Search and Categories:** Find plants easily.
-- ❤️ **Favorites:** Save your favorite plants.
-- 🛒 **Shopping Cart:** Add and manage plants in your cart.
-- 📦 **Order Management:** Complete demo orders and view order history.
-- 💧 **Watering Schedule:** Track watering dates for individual plants.
-- 🔔 **Local Notifications:** Receive scheduled watering reminders.
-- 💾 **Data Persistence:** Keep favorites, cart items, watering records, and order history after restarting the application.
+## 🪴 Kullanılan Teknolojiler
 
-## 🛠️ Technologies Used
+- Flutter
+- Dart
+- SharedPreferences
+- flutter_local_notifications
+- timezone
+- flutter_timezone
+- Android Studio Emulator
+- Git & GitHub
 
-- **Flutter**
-- **Dart**
-- **SharedPreferences**
-- **Flutter Local Notifications**
-- **Timezone**
-- **Flutter Timezone**
+## 🌿 Uygulamada Bulunan Bitkiler
 
-## 🚀 Getting Started
+| Bitki | Fiyat |
+|---|---:|
+| Monstera | 450 TL |
+| Sukulent | 180 TL |
+| Barış Çiçeği | 320 TL |
+| Kaktüs | 150 TL |
+| Orkide | 550 TL |
+| Aloe Vera | 220 TL |
+| Areka Palmiyesi | 680 TL |
+| Lavanta | 280 TL |
 
-### Prerequisites
+## 💾 Veri Saklama
 
-- Flutter SDK
-- Dart SDK
-- Android Studio or Visual Studio Code
-- Android Emulator or a physical Android device
+SharedPreferences kullanılarak favoriler, sepet ürünleri, sulama kayıtları ve sipariş geçmişi yerel olarak saklanmaktadır.
 
-### Installation
+## 📱 Uygulama Ekran Görüntüleri
 
-1. Clone the repository:
+### 1. Ana Sayfa
+![Ana Sayfa](screenshots/01-home.png)
 
-   ```bash
-   git clone https://github.com/sevval230605/PlantPal.git
-   ```
+### 2. Bitki Detay Ekranı
+![Bitki Detay](screenshots/02-plant-detail.png)
 
-2. Navigate to the project directory:
+### 3. Bitki Kataloğu
+![Bitki Kataloğu](screenshots/03-plant-catalog.png)
 
-   ```bash
-   cd PlantPal
-   ```
+### 4. Favoriler
+![Favoriler](screenshots/04-favorites.png)
 
-3. Install dependencies:
+### 5. Bitki Bakım Takvimi
+![Sulama Takvimi](screenshots/05-watering-schedule.png)
 
-   ```bash
-   flutter pub get
-   ```
+### 6. Alışveriş Sepeti
+![Alışveriş Sepeti](screenshots/06-shopping-cart.png)
 
-4. Run the application:
+### 7. Sipariş Özeti
+![Sipariş Özeti](screenshots/07-checkout.png)
 
-   ```bash
-   flutter run
-   ```
+### 8. Sipariş Başarı Ekranı
+![Sipariş Başarılı](screenshots/08-order-success.png)
 
-## 📱 Platform
+## 🧪 Test Durumu
 
-Currently tested on an Android emulator.
+- Flutter Analyze kontrolü başarıyla tamamlandı.
+- Android emülatöründe uygulama çalıştırıldı.
+- Favori, sepet ve sulama kayıtlarının kalıcılığı kontrol edildi.
+- Sipariş süreci test edildi.
+- Bildirim izni ve yapılandırması tamamlandı.
 
-## 👩‍💻 Developer
+**Not:** Sulama bildirimlerinin planlanan zamanda gerçekten görüntülendiği henüz kesin olarak doğrulanmamıştır.
 
-**GitHub:** [sevval230605](https://github.com/sevval230605)
+## 🔗 GitHub
 
-## 📌 Project Status
+Proje kaynak kodlarına aşağıdaki bağlantıdan ulaşabilirsiniz:
 
-Core application features and Android notification integration have been implemented. Scheduled reminder delivery should be tested over the actual reminder interval.
+[PlantPal GitHub Repository](https://github.com/sevval230605/PlantPal)
 
 ---
 
-*PlantPal – Helping your plants grow, one reminder at a time. 🌱*
+**PlantPal – Bitkilerinize iyi bakmanın kolay yolu! 🌱**
