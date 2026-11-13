@@ -146,9 +146,7 @@ class PlantPalNotifications {
     }
 
     final dueDate = lastWatered.add(Duration(days: plant.wateringIntervalDays));
-
     final scheduledDate = DateTime(dueDate.year, dueDate.month, dueDate.day, 9);
-
     final now = DateTime.now();
 
     if (!scheduledDate.isAfter(now)) {
